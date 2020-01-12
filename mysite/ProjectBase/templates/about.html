@@ -1,0 +1,122 @@
+  
+{% extends "base.html" %}
+
+{% block title %}System Rail{% endblock %}
+
+{% block links %}
+  <!-- Custom styles for this template-->
+  <link href="/static/css/sb-admin.css" rel="stylesheet">
+  <link href="/static/fontello/css/fontello.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+<body id="page-top">  
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
+      <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+        <i class="fas fa-bars"></i>
+      </button>
+      <li class="nav-item">
+        <a class="nav-link" href="/systemrail/news">
+          <i class=" icon-star"></i>
+          <span>News</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/systemrail/products">
+          <i class="icon-cubes"></i>
+          <span>Products</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/systemrail/services">
+          <i class="icon-handshake-o"></i>
+          <span>Services</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/systemrail/about">
+          <i class="icon-address-book"></i>
+          <span>About</span>
+        </a>
+      </li>      
+      <li class="nav-item">
+        <a class="nav-link" href="/systemrail/contact">
+          <i class="icon-envelope-open"></i>
+          <span>Contact</span></a>
+      </li>
+    </ul>
+
+    <div id="content-wrapper">
+
+      <div class="container-fluid">
+
+        <!-- Icon Cards-->
+        <div>
+          <div class="logodiv" style="float: left; border-radius: 0.25rem 0rem 0rem 0.25rem; text-align: left; z-index: 1;">
+            <img src="/media/gallery/logo1.png" height="100%" />
+          </div>
+          <div class="logodiv" style="float: left; border-radius: 0rem 0.25rem 0.25rem 0rem; text-align: right; z-index: -1;">
+            <img src="/media/gallery/logo2.png" height="100%" />
+          </div>
+          <div style="clear: both;">
+          </div>
+        </div>
+            <div class="text-form">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in turpis vel libero sollicitudin rhoncus. Vivamus consectetur convallis dolor, id consequat quam porttitor id. Maecenas imperdiet a urna eget venenatis. Nulla justo orci, volutpat eu diam tincidunt, facilisis ullamcorper leo. Nulla vel aliquam dui, sed interdum arcu. Nunc dictum est ut enim tincidunt bibendum. Vivamus consequat elit sed felis mattis maximus. Vivamus mauris mi, ullamcorper eu fringilla in, dignissim nec sem. Integer commodo cursus dapibus. Nam hendrerit scelerisque ultricies. Aenean eu mauris eu dolor aliquam dignissim. Cras lacinia arcu scelerisque, consectetur ipsum vel, semper neque. Phasellus sit amet fringilla nibh. Vivamus at eros risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec auctor ut urna eu elementum.</p>
+                
+                <p>Sed placerat, tortor sed eleifend imperdiet, sem ex pulvinar felis, nec lobortis purus turpis vel nulla. Aliquam interdum nibh eu sem luctus posuere. Aliquam dapibus sed ante non cursus. Phasellus aliquam porta libero posuere semper. Etiam hendrerit, dolor sit amet malesuada convallis, nulla quam commodo nulla, posuere viverra lectus ante sit amet dolor. Maecenas eget dui at justo auctor finibus quis in ligula. Praesent ac nunc urna. Mauris at arcu quam. Suspendisse molestie viverra neque, id malesuada ex interdum quis. Nunc ut sem a felis rutrum aliquam ac vel massa. Praesent vel fringilla purus. Nullam sit amet efficitur odio. Cras sed tortor sed mauris accumsan interdum sit amet quis enim. Maecenas ultricies sollicitudin nisl non tempor.</p>
+            </div>
+        
+                
+        
+
+      </div>
+      <!-- /.container-fluid -->
+      
+
+      
+      <!-- Sticky Footer -->
+      <footer class="sticky-footer">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright © System Rail 2020</span>
+          </div>
+        </div>
+      </footer>
+
+
+      
+
+    </div>
+    <!-- /.content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Page level plugin JavaScript-->
+  <script src="/static/vendor/chart.js/Chart.min.js"></script>
+  <script src="/static/vendor/datatables/jquery.dataTables.js"></script>
+  <script src="/static/vendor/datatables/dataTables.bootstrap4.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="/static/js/sb-admin.min.js"></script>
+
+  <!-- Demo scripts for this page-->
+  <script src="/static/js/demo/datatables-demo.js"></script>
+  <script src="/static/js/demo/chart-area-demo.js"></script>
+
+  
+</body>
+{% endblock %}
