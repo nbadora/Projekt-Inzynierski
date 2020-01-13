@@ -11015,8 +11015,6 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .detail_image{
-  height: 100%;
-  max-height: 100px;
   width: 50%;
   float: left;
   text-align: center;
@@ -11051,6 +11049,7 @@ body.sidebar-toggled footer.sticky-footer {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  height: 300px;
 }
 
 #myImg:hover {opacity: 0.7;}
